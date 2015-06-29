@@ -1,0 +1,8 @@
+<h1>Check out all of our products to buy</h1>
+
+  <% @products.each do |product| %>
+  <ul>
+    <li> Product Name: <%= product.name %> </li>
+    <li>  Product Price: $<%= product.price %>USD</li>
+  </ul>
+  <% end %>
